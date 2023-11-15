@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link href="base.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="page">
+    <section class="titleBox">
+      <header>
+        <strong class="title">Royal Golf Views Advertisment Campaign Proposal </strong>
+      </header>
+      <style>
+        .titleBox {
+          width: 90%;
+          padding: 0 5%;
+          background: var(--theme);
+          color: white;
+          min-height: 50vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        header {
+          text-align: center;
+        }
+
+        .title {
+          font-size: 2rem;
+          border-bottom: 3px solid wheat;
+        }
+
+        strong {
+          font-weight: 400;
+        }
+      </style>
+
+    </section>
+
+    <section class="contentBox">
+      <header>
+        <strong class="title">Contents</strong>
+      </header>
+      <section>
+        <a href="#phase1">
+          <strong>PHASE I -- <small>Photoshoot</small></strong>
+        </a>
+        <a href="#phase2">
+          <strong>PHASE II -- <small>Redesigning Website</small></strong>
+        </a>
+        <a>
+          <strong>PHASE III - <small>Boosting Website Popularity</small></strong>
+        </a>
+        <a href="#budget">
+          <strong>Budget</strong>
+        </a>
+      </section>
+
+
+      <style>
+        .contentBox {
+          width: 90%;
+          padding: 5vh 5%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          min-height: 40vh;
+        }
+
+        .contentBox section {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          align-items: center;
+        }
+
+        .contentBox strong {
+          border-bottom: 2px solid black;
+        }
+      </style>
+    </section>
+
+    <section class="phaseBox" id="phase1">
+      <header>
+        <strong class="title">PHASE I -- Photoshoot</strong>
+      </header>
+
+      <section>
+
+        <article>
+          <legend>
+            <i class="material-symbols-outlined">task_alt</i>
+            <span>360 shots</span>
+          </legend>
+          <small>
+            Dynamic 360 shots to give site visitors an interactive an realistic experience of each rooms design
+          </small>
+
+          <sub>samples</sub>
+          <div class="imgBox">
+            <img src="360 sample.avif" alt="">
+            <img src="360 sample.avif" alt="">
+            <img src="360 sample.avif" alt="">
+          </div>
+        </article>
+
+        <article>
+          <legend>
+            <i class="material-symbols-outlined">task_alt</i>
+            <span>Landscape shots</span>
+          </legend>
+          <small>
+            Dynamic 360 shots to give site visitors an interactive an realistic experience of each rooms design
+
+          </small>
+
+          <sub>samples</sub>
+          <div class="imgBox">
+            <img src="SF5D0173-scaled.jpg" alt="">
+            <img src="SF5D0173-scaled.jpg" alt="">
+            <img src="SF5D0173-scaled.jpg" alt="">
+          </div>
+        </article>
+        <article>
+          <legend>
+            <i class="material-symbols-outlined">task_alt</i>
+            <span>Landscape shots</span>
+          </legend>
+          <small>
+            Dynamic 360 shots to give site visitors an interactive an realistic experience of each rooms design
+
+          </small>
+
+          <sub>samples</sub>
+          <div class="imgBox">
+            <img src="SF5D0189-scaled.jpg" alt="">
+            <img src="SF5D0189-scaled.jpg" alt="">
+            <img src="SF5D0189-scaled.jpg" alt="">
+          </div>
+        </article>
+
+        <div class="budgetBox">
+          <article style="gap: 0.2rem;">
+            <strong>360 shots</strong>
+            <small>GH¢ 200 per shot * 5</small>
+            <h3>GH¢ 1,000</h3>
+          </article>
+          <article style="gap: 0.2rem;">
+            <strong>Landscape Shots</strong>
+            <small>GH¢ 100 per shot * 5</small>
+            <h3>GH¢ 500</h3>
+          </article>
+          <article style="gap: 0.2rem;">
+            <strong>Portrait Shots</strong>
+            <small>GH¢ 100 per shot * 5</small>
+            <h3>GH¢ 500</h3>
+          </article>
+          <article style="gap: 0.2rem;" class="total">
+            <strong>Total</strong>
+            <h3>GH¢ 2,000</h3>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <style>
+      .phaseBox {
+        width: 90%;
+        padding: 5vh 5%;
+        min-height: 90vh;
+        display: flex;
+        align-items: flex-start;
+        gap: 5vh;
+        /* justify-content: center; */
+        flex-direction: column;
+      }
+
+      .phaseBox section {
+        display: flex;
+        flex-direction: column;
+        gap: 4vh;
+      }
+
+      .phaseBox article {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+
+      .phaseBox article sub {
+        color: rgb(161, 69, 59);
+      }
+
+      .phaseBox article small,
+      .phaseBox article legend {
+        gap: 0.3rem;
+        display: flex;
+        align-items: center;
+      }
+
+      .phaseBox article legend {
+        color: rgb(105, 105, 105);
+      }
+
+      .phaseBox .imgBox {
+        display: grid;
+        gap: 1rem;
+        position: relative;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .phaseBox .imgBox img {
+        width: 100%;
+      }
+    </style>
+
+
+    <section class="phaseBox" id="phase2">
+      <header>
+        <strong class="title">PHASE II -- Redesigning Website</strong>
+      </header>
+      <section>
+        <article>
+          <legend>
+            <i class="material-symbols-outlined">task_alt</i>
+            <span>Web pages</span>
+          </legend>
+          <div>
+            <small> <i class="material-symbols-outlined">arrow_forward</i> Landing page </small>
+            <small> <i class="material-symbols-outlined">arrow_forward</i> About page </small>
+            <small> <i class="material-symbols-outlined">arrow_forward</i> Gallery Page </small>
+            <small> <i class="material-symbols-outlined">arrow_forward</i> Contact Page </small>
+            <small> <i class="material-symbols-outlined">arrow_forward</i> 360 Tour page </small>
+            <small> <i class="material-symbols-outlined">arrow_forward</i> Map Page </small>
+          </div>
+
+          <div class="imgBox">
+            <div class="livebox">
+              <a href="demo.html">
+                <i class="material-symbols-outlined">tv</i>
+                <span>Quick Demo</span>
+              </a>
+              <img src="demo.JPG" alt="">
+            </div>
+          </div>
+
+          <style>
+            .livebox {
+              position: relative;
+            }
+
+            .livebox a {
+              background: rgba(0, 0, 0, 0.409);
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              color: white !important;
+              justify-content: center;
+            }
+          </style>
+
+        </article>
+      </section>
+      <div class="budgetBox">
+        <article style="gap: 0.2rem;">
+          <strong>Page Design</strong>
+          <small>GH¢ 500 per page * 6</small>
+          <h3>GH¢ 3,000</h3>
+        </article>
+        <article style="gap: 0.2rem;" class="total">
+          <strong>Total</strong>
+          <h3>GH¢ 3,000</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="phaseBox" id="phase1">
+      <header>
+        <strong class="title">PHASE III -- Boosting Website Popularity</strong>
+      </header>
+
+      <section>
+
+        <article>
+          <legend>
+            <i class="material-symbols-outlined">task_alt</i>
+            <span>External Advertisment</span>
+          </legend>
+
+          <div>
+            <small>
+              Channeling Popularity of the most prominent property listing networks in Ghana and the World.
+            </small>
+            <small>
+              Ad. Campaign will be spread across a 3 month duration. Duration increment will be done if needed
+            </small>
+          </div>
+
+
+          <div>
+            <small>
+              <i class="material-symbols-outlined">arrow_forward</i>
+              Ghana property Centre
+            </small>
+            <small>
+              <a href="https://ghanapropertycentre.com/" target="_blank">
+                <legend style="color: dodgerblue;">
+                  <i class="material-symbols-outlined" style="font-size: 1rem;">task_alt</i>
+                  <span>https://ghanapropertycentre.com/</span>
+                </legend>
+              </a>
+            </small>
+          </div>
+
+          <div>
+            <small>
+              <i class="material-symbols-outlined">arrow_forward</i>
+              Meqasa
+            </small>
+            <small>
+              <a href="https://meqasa.com/choose-a-plan" target="_blank">
+                <legend style="color: dodgerblue;">
+                  <i class="material-symbols-outlined" style="font-size: 1rem;">task_alt</i>
+                  <span>https://meqasa.com/choose-a-plan</span>
+                </legend>
+              </a>
+            </small>
+          </div>
+
+          <div>
+            <small>
+              <i class="material-symbols-outlined">arrow_forward</i>
+              broll ghana
+            </small>
+            <small>
+              <a href="https://www.broll.com/services/auctions-and-sales" target="_blank">
+                <legend style="color: dodgerblue;">
+                  <i class="material-symbols-outlined" style="font-size: 1rem;">task_alt</i>
+                  <span>https://www.broll.com/services/auctions-and-sales</span>
+                </legend>
+              </a>
+            </small>
+          </div>
+
+        </article>
+
+
+        <article>
+          <legend>
+            <i class="material-symbols-outlined">task_alt</i>
+            <span>Internal Advertisment</span>
+          </legend>
+
+          <div>
+            <small>
+              Boosting the website on google ads. and facebook platforms to to have it pop up on top of search engines.
+            </small>
+            <small>
+              Ad. Campaign will be spread across a 3 month duration. Duration increment will be done if needed.
+            </small>
+          </div>
+
+
+          <div>
+            <small>
+              <i class="material-symbols-outlined">arrow_forward</i>
+              Google Ads (priced based on number of users that click on ad.)
+            </small>
+            <small>
+              <a href="https://ads.google.com/home/" target="_blank">
+                <legend style="color: dodgerblue;">
+                  <i class="material-symbols-outlined" style="font-size: 1rem;">task_alt</i>
+                  <span>https://ads.google.com/home/</span>
+                </legend>
+              </a>
+            </small>
+          </div>
+
+
+        </article>
+      </section>
+
+
+      <div class="budgetBox">
+        <article style="gap: 0.2rem;">
+          <strong>Ghana property Centre</strong>
+          <small>GH¢ 80 per month * 3</small>
+          <h3>GH¢ 240</h3>
+        </article>
+        <article style="gap: 0.2rem;">
+          <strong>Meqasa</strong>
+          <small>GH¢ 800 per 3 months</small>
+          <h3>GH¢ 800</h3>
+        </article>
+        <article style="gap: 0.2rem;">
+          <strong>Broll Ghana</strong>
+          <small>GH¢ 80 per month * 3</small>
+          <h3>GH¢ 240</h3>
+        </article>
+        <article style="gap: 0.2rem;" class="total">
+          <strong>Total</strong>
+          <h3>GH¢ 1,280</h3>
+        </article>
+      </div>
+
+      <div class="imgBox">
+        <img src="prop1.JPG" alt="">
+        <img src="meqasa.JPG" alt="">
+        <img src="prop1.JPG" alt="">
+      </div>
+
+      <style>
+        .budgetBox{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .budgetBox article{
+          border: 1px solid darkgray;
+          padding: 15px;
+        }
+        .budgetBox .total{
+          background: salmon;
+          color: white;
+        }
+      </style>
+    </section>
+
+    <section class="totalBox" id="budget">
+      <div>
+        <span>PHASE I -- Photoshoot</span>
+        <h3>GH¢ 2,000</h3>
+      </div>
+      <div>
+        <span>PHASE II -- Redesigning Website</span>
+        <h3>GH¢ 3,000</h3>
+      </div>
+      <div>
+        <span>PHASE III -- Boosting Website Popularity</span>
+        <h3>GH¢ 1,280</h3>
+      </div>
+
+      <legend>
+        <i class="material-symbols-outlined">payments</i>
+        <h2>GH¢ 6,280</h2>
+      </legend>
+    </section>
+
+    <style>
+      .totalBox{
+        width: 90%;
+        padding: 5vh 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        /* align-items: flex-start; */
+        background: var(--theme);
+        color: white;
+      }
+      .totalBox legend{
+        padding: 5px;
+        background: black;
+      }
+    </style>
+
+  </section>
+
+
+  <style>
+    * {
+      font-family: 'Poppins';
+    }
+  </style>
+</body>
+
+</html>

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="page">
+    <section class="navbar">
+      <img src="rgv-logo.png" alt="">
+      <nav>
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Gallery</a>
+        <a href="">Contact US</a>
+
+        <a href="" class="hiddenLink">Inquire</a>
+        <button class="material-symbols-outlined">menu</button>
+      </nav>
+
+      <div>
+        <a href="">Inquire</a>
+      </div>
+    </section>
+    <section class="headBox">
+      <header>
+        <section>
+          <div>
+            <strong>Find Your Luxury Apartment</strong>
+            <!-- <small>Available for sale -- best prices</small> -->
+          </div>
+          <article>
+            <p>
+              <span>3</span>
+              <small>Bedrooms</small>
+            </p>
+            <p>
+              <span>3</span>
+              <small>Bedrooms</small>
+            </p>
+            <p>
+              <span>3</span>
+              <small>Bedrooms</small>
+            </p>
+          </article>
+        </section>
+
+        <p class="moreBox">
+          <small>Available For Sale</small> |
+          <small>Best Prices</small>
+        </p>
+      </header>
+      <video src="RGV-NO-LOGOS.mp4" autoplay muted loop></video>
+      <p class="timeBox">
+        <span>Opening Hours</span>
+        <small>MON - FRI : 10AM - 7PM/ SAT: 10AM - 5PM/SUN: 1PM - 5PM</small>
+      </p>
+    </section>
+
+    <section class="introBox">
+      <section class="left">
+        <strong>ROYAL GOLF VIEWS <sub></sub></strong>
+        <small class="text">
+          World-class luxury flats, quality workmanship with attention to detail. Kumasi is the capital of the Ashanti
+          Region of Ghana, also known as the Garden City of Ghana. It is known for its rich Ghanaian Culture and
+          hospitality. Royal Golf Views Apartments is located in a serene area in Kumasi.
+        </small>
+        <small class="text">
+          Each block has the ground floor as the parking space. Each apartment is allocated two parking spaces for its
+          residence. There are two sets of three-bedroom apartments on each floor starting from the first to the fourth
+          floor. The penthouse is the only apartment on the 5th floor, with large rooftop garden terrace, expanded
+          living spaces and bedrooms, master wing, private study and private foyer.
+        </small>
+      </section>
+      <section class="right">
+        <img src="DJI_0504-scaled.jpg" alt="">
+      </section>
+    </section>
+  </section>
+
+
+  <style>
+    .text {
+      font-family: 'Poppins';
+    }
+
+    strong sub {
+      display: block;
+      width: 100%;
+      background: var(--theme);
+      height: 3px;
+    }
+
+    .introBox {
+      width: 90%;
+      padding: 0vh 5%;
+      margin: 10vh 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .introBox .left {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .introBox strong,
+    .showBox header strong {
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+
+    .introBox img {
+      width: 100%;
+      border-radius: 20px;
+    }
+  </style>
+
+  <section class="facilityBox">
+    <header>
+      <strong>Building Amenities <sub></sub></strong>
+    </header>
+    <section>
+      <div>
+        <i class="material-symbols-outlined">elevator</i>
+        <strong>Elevator</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">tv</i>
+        <strong>DSTV</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">exercise</i>
+        <strong>Gym Center</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">kitchen</i>
+        <strong>Kitchen Fittings</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">videocam</i>
+        <strong>cctv cameras</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">shower</i>
+        <strong>Bathroom Fittings</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">pool</i>
+        <strong>Common Pool Area</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">wifi</i>
+        <strong>Fast Internet</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">ac_unit</i>
+        <strong>Heat & AC Units</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">coffee_maker</i>
+        <strong>Luxury Appliances</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">sports_handball</i>
+        <strong>Playground</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">styler</i>
+        <strong>Doors & Wardrobe</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">kebab_dining</i>
+        <strong>Outdoor Barbeque Area</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">meeting_room</i>
+        <strong>On-site Management Office</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">support_agent</i>
+        <strong>24/7 Customer Service</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">call</i>
+        <strong>Telephone Outlets</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">water</i>
+        <strong>Backup Water Supply</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+      <div>
+        <i class="material-symbols-outlined">person</i>
+        <strong>Service Area</strong>
+        <legend class="material-symbols-outlined">north_east</legend>
+      </div>
+    </section>
+
+  </section>
+
+
+  <style>
+    .facilityBox {
+      width: 90%;
+      padding: 3vh 5%;
+      background: burlywood;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      /* align-items: flex-start; */
+      align-items: center;
+    }
+
+    .facilityBox header strong {
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: white;
+    }
+
+    .facilityBox section {
+      width: 100%;
+      gap: 0.5rem;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+    }
+
+
+    .facilityBox section div {
+      padding: 15px;
+      border-bottom: 1px solid wheat;
+      border-right: 1px solid wheat;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      color: var(--theme);
+    }
+
+    .facilityBox section div strong {
+      font-weight: 400;
+      font-size: 1rem;
+    }
+
+    .facilityBox section div legend {
+      border: 1px solid white;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 1rem;
+    }
+  </style>
+
+
+  <section class="showBox">
+    <header>
+      <strong>Property Facts<sub></sub></strong>
+    </header>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div>
+            <img src="SF5D0173-scaled.jpg" alt="">
+            <article>
+              <strong>16 Luxury Flats</strong>
+              <small class="text">
+                All our flats are outfitted with elegant fittings, high-end modern appliances and technologies, mini
+                central air conditioning systems, infrared presence lighting system as well as smoke and carbon monoxide
+                detectors. The apartments have views that overlook the golf course. Extra common parking spaces are
+                available for visitors.
+              </small>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="SF5D0221-scaled.jpg" alt="">
+            <article>
+              <strong>16 Luxury Flats</strong>
+              <small class="text">
+                All our flats are outfitted with elegant fittings, high-end modern appliances and technologies, mini
+                central air conditioning systems, infrared presence lighting system as well as smoke and carbon monoxide
+                detectors. The apartments have views that overlook the golf course. Extra common parking spaces are
+                available for visitors.
+              </small>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="SF5D0189-scaled.jpg" alt="">
+            <article>
+              <strong>16 Luxury Flats</strong>
+              <small class="text">
+                All our flats are outfitted with elegant fittings, high-end modern appliances and technologies, mini
+                central air conditioning systems, infrared presence lighting system as well as smoke and carbon monoxide
+                detectors. The apartments have views that overlook the golf course. Extra common parking spaces are
+                available for visitors.
+              </small>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="SF5D0221-scaled.jpg" alt="">
+            <article>
+              <strong>16 Luxury Flats</strong>
+              <small class="text">
+                All our flats are outfitted with elegant fittings, high-end modern appliances and technologies, mini
+                central air conditioning systems, infrared presence lighting system as well as smoke and carbon monoxide
+                detectors. The apartments have views that overlook the golf course. Extra common parking spaces are
+                available for visitors.
+              </small>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .showBox {
+      width: 95%;
+      margin: 10vh 0 10vh 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem 0;
+    }
+
+    .showBox .swiper {
+      width: 90%;
+      padding: 0 10% 0 0;
+    }
+
+    .showBox .swiper .swiper-slide div {
+      width: 85%;
+      display: flex;
+    }
+
+    .showBox .swiper .swiper-slide div article {
+      padding: 25px;
+      display: flex;
+      gap: 0.5rem;
+      flex-direction: column;
+    }
+
+    .showBox img {
+      width: 440px;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    @media all and (max-width:1000px) {
+      .showBox {
+        width: 90%;
+        margin: 10vh 5%;
+      }
+
+      .showBox .swiper {
+        padding: 0;
+        width: 100%;
+      }
+      .showBox img {
+        width: 80%;
+      }
+      .showBox .swiper .swiper-slide div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    @media all and (max-width:850px) {
+      .introBox {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .introBox img {
+        width: 50%;
+      }
+
+      .facilityBox section {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+
+    @media all and (max-width:650px) {
+      .introBox{
+        margin: 5vh 0;
+        padding: 0vh 5%;
+      } 
+      .showBox {
+        margin: 5vh 5%;
+      }
+      .showBox img {
+        width: 100%;
+        height: 200px;
+      }
+      .introBox img {
+        width: 80%;
+        border-radius: 0;
+      }
+
+
+      .facilityBox section {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media all and (max-width:450px) {
+      .facilityBox section {
+        display: flex;
+        overflow-x: auto;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .facilityBox section div strong{
+        width: max-content;
+      }
+    }
+  </style>
+
+  <script>
+    var showBoxSwiper = new Swiper('.showBox .swiper', {
+      // loop : true,
+      speed: 500,
+      autoplay: {
+        delay: 4000
+      }
+    })
+  </script>
+
+
+  <style>
+    .navbar nav button,
+    .hiddenLink {
+      display: none;
+    }
+
+    .navbar {
+      width: 90%;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 1vh 5%;
+    }
+
+    .navbar img {
+      width: 100px;
+    }
+
+    .navbar>* {
+      display: flex;
+    }
+
+    .navbar>*:nth-child(1) {
+      justify-content: flex-start;
+    }
+
+    .navbar>*:nth-child(2) {
+      justify-content: center;
+    }
+
+    .navbar>*:nth-child(3) {
+      justify-content: flex-end;
+    }
+
+    .navbar div a {
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    .navbar nav {
+      gap: 2rem;
+    }
+
+
+
+    .headBox {
+      width: 100%;
+      /* width: 90%; */
+      /* margin: 0 5%; */
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 75vh;
+    }
+
+
+
+
+    .headBox header {
+      z-index: 20;
+      /* position: absolute; */
+      background: rgba(0, 0, 0, 0.224);
+      padding: 10px;
+      border-radius: 10px 10px 10px 0;
+      position: relative;
+      margin-left: 5%;
+      /* margin-left: 1%; */
+      gap: 1rem;
+    }
+
+    .headBox header,
+    .headBox header section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .headBox header div {
+      display: flex;
+      flex-direction: column;
+      color: white;
+    }
+
+    .headBox header strong {
+      color: white;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    .headBox header article {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .headBox header article p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .headBox header article p span {
+      font-size: 1.3rem;
+      color: wheat;
+    }
+
+    .headBox header article p small {
+      color: white;
+    }
+
+    .headBox header hr {
+      width: 100%;
+      border-top: 2px dotted wheat;
+    }
+
+    .headBox header .moreBox {
+      /* border: 1px solid white; */
+      gap: 0 !important;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: black;
+      background: rgba(0, 0, 0, 0.224);
+      border-radius: 0 0 10px 10px;
+      padding: 5px;
+      border-top: 1px dotted wheat;
+      /* display: flex; */
+      color: white;
+    }
+
+    .headBox .timeBox {
+      left: 5%;
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      position: absolute;
+      bottom: 10px;
+    }
+
+    .headBox .timeBox>* {
+      font-family: 'Poppins';
+      font-size: 0.65rem;
+    }
+
+
+    video {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      /* border-radius: 20px; */
+    }
+
+
+    @media all and (max-width:650px) {
+      .navbar {
+        /* border: 2px solid gold; */
+        display: flex;
+        flex-direction: column;
+      }
+
+      .navbar nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        /* background: black; */
+        padding: 15px 25px;
+        width: 100px;
+        color: white;
+        gap: 0.5rem;
+        left: -150px;
+        z-index: 100;
+        background: rgb(203, 180, 137);
+        background: var(--theme);
+      }
+
+      .navbar nav a {
+        color: white;
+      }
+
+      .navbar>*:nth-child(3) {
+        display: none;
+      }
+
+      .navbar nav button {
+        position: absolute;
+        left: 100%;
+        top: 0;
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(203, 180, 137);
+        background: var(--theme);
+        color: white;
+      }
+
+      .navbar nav button,
+      .hiddenLink {
+        display: flex;
+      }
+
+      .headBox {
+        height: 60vh;
+      }
+    }
+
+    @media all and (max-width:500px) {
+      .headBox {
+        /* border: 2px solid red; */
+        width: 100%;
+        margin: 0;
+        height: 45vh;
+        justify-content: center;
+      }
+
+      .headBox video {
+        border-radius: 0;
+      }
+
+      .headBox header {
+        margin-left: auto;
+        margin-right: auto;
+        /* max-width: 90%; */
+      }
+
+      .headBox .timeBox {
+        left: auto;
+        align-items: center;
+        right: auto;
+      }
+    }
+  </style>
+
+</body>
+
+</html>
