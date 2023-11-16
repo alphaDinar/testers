@@ -67,7 +67,12 @@
 
     <section class="introBox">
       <section class="left">
-        <strong>ROYAL GOLF VIEWS <sub></sub></strong>
+        <h3>
+          <p>
+            ROYAL GOLF VIEWS <i class="material-symbols-outlined">sports_golf</i>
+          </p>
+          <sub></sub>
+        </h3>
         <small class="text">
           World-class luxury flats, quality workmanship with attention to detail. Kumasi is the capital of the Ashanti
           Region of Ghana, also known as the Garden City of Ghana. It is known for its rich Ghanaian Culture and
@@ -90,13 +95,35 @@
   <style>
     .text {
       font-family: 'Poppins';
+      font-family: 'Karla', sans-serif;
+      /* font-family: 'Raleway', sans-serif; */
+      font-size: 1rem;
     }
 
-    strong sub {
-      display: block;
-      width: 100%;
-      background: var(--theme);
+    h3 {
+      padding: 0 3px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      font-weight: 400;
+    }
+
+    h3 p {
+      font-size: 1.3rem;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      /* color: tomato; */
+      color: var(--theme);
+      gap: 0.3rem;
+      word-spacing: 2px;
+    }
+
+    h3 sub {
       height: 3px;
+      width: 50px;
+      background: wheat;
+      display: block;
     }
 
     .introBox {
@@ -128,9 +155,12 @@
   </style>
 
   <section class="facilityBox">
-    <header>
-      <strong>Building Amenities <sub></sub></strong>
-    </header>
+    <h3>
+      <p>
+        BUILDING AMENETIES <i class="material-symbols-outlined">sports_golf</i>
+      </p>
+      <sub></sub>
+    </h3>
     <section>
       <div>
         <i class="material-symbols-outlined">elevator</i>
@@ -234,15 +264,8 @@
       background: burlywood;
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
       gap: 2rem;
-      /* align-items: flex-start; */
-      align-items: center;
-    }
-
-    .facilityBox header strong {
-      font-size: 1.8rem;
-      font-weight: 400;
-      color: white;
     }
 
     .facilityBox section {
@@ -256,7 +279,8 @@
     .facilityBox section div {
       padding: 15px;
       border-bottom: 1px solid wheat;
-      border-right: 1px solid wheat;
+      border-left: 1px solid wheat;
+      /* border: 2px solid black; */
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -283,9 +307,12 @@
 
 
   <section class="showBox">
-    <header>
-      <strong>Property Facts<sub></sub></strong>
-    </header>
+    <h3>
+      <p>
+        PROPERTY FACTS <i class="material-symbols-outlined">sports_golf</i>
+      </p>
+      <sub></sub>
+    </h3>
     <div class="swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -369,7 +396,7 @@
     }
 
     .showBox .swiper .swiper-slide div article {
-      padding: 25px;
+      padding: 0 25px;
       display: flex;
       gap: 0.5rem;
       flex-direction: column;
@@ -392,9 +419,11 @@
         padding: 0;
         width: 100%;
       }
+
       .showBox img {
         width: 80%;
       }
+
       .showBox .swiper .swiper-slide div {
         width: 100%;
         display: flex;
@@ -418,17 +447,20 @@
     }
 
     @media all and (max-width:650px) {
-      .introBox{
+      .introBox {
         margin: 5vh 0;
         padding: 0vh 5%;
-      } 
+      }
+
       .showBox {
         margin: 5vh 5%;
       }
+
       .showBox img {
         width: 100%;
         height: 200px;
       }
+
       .introBox img {
         width: 80%;
         border-radius: 0;
@@ -446,7 +478,11 @@
         overflow-x: auto;
         grid-template-columns: repeat(2, 1fr);
       }
-      .facilityBox section div strong{
+      .facilityBox section div{
+        /* border: 2px solid gold; */
+        min-width: 200px;
+      }
+      .facilityBox section div strong {
         width: max-content;
       }
     }
@@ -673,16 +709,14 @@
       }
 
       .headBox {
-        height: 60vh;
+        height: 70vh;
       }
     }
 
     @media all and (max-width:500px) {
       .headBox {
-        /* border: 2px solid red; */
         width: 100%;
         margin: 0;
-        height: 45vh;
         justify-content: center;
       }
 
@@ -693,6 +727,7 @@
       .headBox header {
         margin-left: auto;
         margin-right: auto;
+        border-radius: 0;
         /* max-width: 90%; */
       }
 
